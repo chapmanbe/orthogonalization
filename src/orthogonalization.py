@@ -29,7 +29,7 @@ def main(input_m):
     :return:
     :exception:
     """
-    
+
 
     print("Orthogonalization Matrix:\n")
     print(o_matrix)
