@@ -9,6 +9,13 @@ def unit_vector(vec):
     """
     pass
 
+def substract_projection(a,q):
+    """
+    this function produces the projection of a onto q from a
+    raises a value error if the two vectors are the not same shape/size
+    """
+
+    
 
 def gauss_elim(matrix):
     """
