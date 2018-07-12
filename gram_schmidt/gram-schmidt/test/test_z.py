@@ -20,8 +20,13 @@ def test_unit_vector2():
     assert np.abs(np.norm(new_v)-1.0) < 0.0001
     
 def test_subtract_projection():
-    v = numpy.ones([2,1])
-    new_v = gs.subtract_projection(v)
-    assert np.inner() == 0
+    a = numpy.array([2,1])
+    new_v = gs.subtract_projection(a)
+    assert np.abs(np.inner(new_v*a) - 1.0) < 0.0001
+    
+
+    
+    
+    
 
     
