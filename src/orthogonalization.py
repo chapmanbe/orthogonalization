@@ -5,29 +5,35 @@ import pandas as pd
 
 def unit_vector(v):
     """
-    :param v:
-    :return:
+    Takes a vector (v) and returns a unit vector form
+    :param: numpy array (v)
+    :return: numpy array (unit_v)
     :exception:
+        ValueError
     """
 
     return unit_v
 
 
-def proj_subtraction():
+def subtract_proj(a, q):
     """
-    :param:
-    :return:
+    Takes two vectors and subtracts the projection of a onto q
+    :param: numpy arrays (a and q)
+    :return: numpy array (proj_a)
     :exception:
+        ValueError is a and q is not same dimension
     """
 
-    return
+    return proj_a
 
 
 def main(input_m):
     """
-    :param input_m:
-    :return:
+    Takes a matrix and returns an orthonormal version using the Gram-Schmidt orthogonal algorithm
+    :param: numpy array (input_m)
+    :return: numpy array (o_matrix)
     :exception:
+        ValueError
     """
 
 
