@@ -9,23 +9,23 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='myla',
+    name='gram-schmidt',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.1.0.2',
 
-    description='Utilities for doing linear algebra with Python.',
+    description='Gram-Shmidt orthogonalization',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/achetam/',
+    #UPDATE THIS LINE url='',
 
     # Author details
-    author='Alla Chernenko',
+    author='Advanced Py 2018',
 
-    author_email='alla.chernenko9@gmail.com',
+    #UPDATE THIS LINE AS WELL author_email='',
 
     # Choose your license
     license='http://www.apache.org/licenses/LICENSE-2.0',
@@ -52,7 +52,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='Linear Algebra, debugging',
+    keywords='gram-schmidt, orthogonalization',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
