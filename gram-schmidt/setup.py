@@ -16,7 +16,10 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.1.0.2',
 
-    description='Gram-Shmidt orthogonalization',
+    description='Gram-Shmidt orthogonalization is a simple algorithm \
+    for taking a non-orthonormal matrix ($A$) consisting of \
+    linear independent columns and creates an orthonormal version \
+    of the matrix ($Q$)',
     long_description=long_description,
 
     # The project's main homepage.
